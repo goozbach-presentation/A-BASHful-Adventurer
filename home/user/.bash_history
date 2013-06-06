@@ -33,3 +33,9 @@ ls
 \ls
 cd ..
 ls
+cp ../admin/.bashrc .
+cp ../admin/.bash_profile .
+ls
+vi .bashrc .bash_profile 
+ls
+ssh localhost

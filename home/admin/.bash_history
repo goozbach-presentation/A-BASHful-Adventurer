@@ -81,3 +81,6 @@ ls
 cd
 ls
 git status
+ls
+ssh localhost
+ls
