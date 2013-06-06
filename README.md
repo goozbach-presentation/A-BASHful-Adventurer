@@ -14,6 +14,7 @@ But don't worry, they're being transcoded and uploaded to youtube one by one.  O
 
 ## To use
 Simply check out this repository to some location and create a new user which has it's home directory set to the `home/hero` subfolder.
+The adventure starts when you cd into `the_entrance`
 
 ## Issues
 Report any issues to the issue tracker
