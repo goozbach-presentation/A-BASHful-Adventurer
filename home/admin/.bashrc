@@ -6,7 +6,7 @@
 #fi
 
 # User specific aliases and functions
-PS1='[admin@example \W]$ '
+PS1='[admin@example \W]# '
 unalias egrep
 unalias fgrep
 unalias grep

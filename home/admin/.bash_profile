@@ -17,4 +17,4 @@ unalias l.
 unalias ll
 unalias ls
 unalias which
-PS1='[admin@example \W]$ '
+PS1='[admin@example \W]# '

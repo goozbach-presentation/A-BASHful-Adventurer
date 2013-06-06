@@ -59,3 +59,25 @@ cd
 pwd
 git status
 pwd
+ls
+pwd
+cd /
+ls
+exit
+ls
+vi .bash*
+ls
+lockfile --help
+man lockfile
+ls
+git status
+git diff
+git diff --color=auto
+ls
+git status
+ls
+cd ..
+ls
+cd
+ls
+git status
