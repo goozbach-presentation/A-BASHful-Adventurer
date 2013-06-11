@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+
+  <title>Goozbach Presentations</title>
+  <meta name="author" content="Derek Carter <goozbach@friocorte.com>"/>
+
+  <!-- mobile viewport optimisation -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- stylesheets -->
+	<link href="/css/flexible-grids.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="/yaml/add-ons/accessible-tabs/tabs.css" type="text/css"/>
+
+
+  <!--[if lte IE 7]>
+  <link rel="stylesheet" href="yaml/core/iehacks.min.css" type="text/css"/>
+  <![endif]-->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<ul class="ym-skiplinks">
+	<li><a class="ym-skip" href="#nav">Skip to navigation (Press Enter)</a></li>
+	<li><a class="ym-skip" href="#main">Skip to main content (Press Enter)</a></li>
+</ul>
+
+<header>
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+      <h1>Goozbach Presentations</h1>
+		</div>
+	</div>
+</header>
+
+{% include nav.html %}
+         
+<div id="main">
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+
+    <!-- content goes here -->
+    {{ content }} 
+    <!-- end content -->
+
+    <!-- end ym-wbox-->
+		</div>
+  <!-- end ym-wrapper-->
+	</div>
+<!-- end main-->
+</div>
+<footer>
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+      <p><a href="http://goozbach.com/contact/index.html">Contact Derek</a></p>
+			<p>© Goozbach Infrastructure Solutions 2013 &ndash; Layout based on <a href="http://www.yaml.de">YAML</a></p>
+		</div>
+	</div>
+</footer>
+<!-- full skip link functionality in webkit browsers -->
+<script src="/yaml/core/js/yaml-focusfix.js"></script>
+<script src="/lib/jquery-1.7.1.min.js" type="text/javascript"></script>
+<script src="/yaml/add-ons/accessible-tabs/jquery.tabs.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.jquery_tabs').accessibleTabs();
+});
+</script>
+</body>
+</html>
