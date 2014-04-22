@@ -775,3 +775,65 @@ goback
 lookaround
 sign macOSX-tips.sign 
 lookaround
+ls
+cd the_entrance/
+quit
+exit
+ls -ld .
+chmod +rx .
+ls -ld .
+ls -l
+ls
+cd ..
+ls
+quit
+exit
+cd /home/hero-src/
+pwd
+ls
+git status
+git add the_entrance/basic_training/var-tricks/vars.sign
+git status
+git rm .Xauthority
+git rm -f --keep .Xauthority
+git rm -f --cached .Xauthority
+git status
+git rm -f --cached .cache/uzbl/event_daemon.log .dbus/session-bus/01d8adf91a37cfbfb9f523c84a528770-10 .local/share/uzbl/history .recently-used.xbel .viminfo .xauthwE6mhR
+git status
+ls
+git log
+git status
+git rm --cached -f .dot_files/
+git rm --cached -f .dot_files
+git status
+git mv the_entrance/basic_training/var-tricks/vars.html the_entrance/basic_training/var-tricks/vars.sign
+mv the_entrance/basic_training/var-tricks/vars.sign the_entrance/basic_training/var-tricks/vars.html
+git status
+git rm --cached the_entrance/basic_training/var-tricks/vars.sign
+git mv the_entrance/basic_training/var-tricks/vars.html the_entrance/basic_training/var-tricks/vars.sign
+ls
+git status
+ls -la .projects/MultiMarkdown/
+git add .projects/MultiMarkdown
+git status
+git rm --cached -f .isos/rhel-server-5.4-x86_64-dvd.iso
+git status
+git add .bash_history
+git add .projects/MultiMarkdown
+git status
+cd .dot_files/
+git status
+git diff
+git status
+git diff _bashrc
+git ci -am "post-presentation"
+git commit -am "post-presentation"
+ls
+pwd
+cd /home/hero
+ls
+git status
+git add .bash_history
+git status
+git commit -m "post-presentation"
+ls
